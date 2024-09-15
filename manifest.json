@@ -1,1 +1,5 @@
 
+private final int REQUEST_CODE_PERMISSION_ACCESS_FINE_LOCATION = 100;
+
+ActivityCompat.requestPermissions(UklonActivity.this, new String[] {Manifest.permission.ACCESS_FINE_LOCATION},
+                    REQUEST_CODE_PERMISSION_ACCESS_FINE_LOCATION);
